@@ -1,0 +1,26 @@
+html {
+    text-align: center;
+    background-color: aliceblue ;
+    font-family: Georgia, serif;
+}
+
+h1, h2 {
+    display: inline-block;
+    text-align: center;
+    margin: 1rem;
+}
+
+.purpose-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin: 4rem;
+
+}
+
+.persona-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin: 0 4rem 4rem 4rem;
+}

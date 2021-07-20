@@ -15,6 +15,8 @@ h1, h2 {
     flex-direction: column;
     text-align: justify;
     margin: 4rem;
+    border: black solid .25rem;
+    padding: 2rem;
 
 }
 
@@ -23,4 +25,10 @@ h1, h2 {
     flex-direction: column;
     text-align: justify;
     margin: 0 4rem 4rem 4rem;
+    border: black solid .25rem;
+    padding: 2rem;
+}
+
+p {
+    line-height: 32px
 }

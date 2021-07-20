@@ -16,7 +16,7 @@ h1, h2 {
     text-align: justify;
     margin: 4rem;
     border: black solid .25rem;
-    padding: 2rem;
+    padding: 3rem;
 
 }
 
@@ -26,7 +26,7 @@ h1, h2 {
     text-align: justify;
     margin: 0 4rem 4rem 4rem;
     border: black solid .25rem;
-    padding: 2rem;
+    padding: 3rem;
 }
 
 p {

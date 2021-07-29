@@ -1,3 +1,5 @@
+/*Milestone 1 Styling*/
+
 html {
     text-align: center;
     background-color: aliceblue ;
@@ -39,6 +41,10 @@ h1, h2 {
     padding: 3rem;
 }
 
+/*Milestone 2 Styling*/
+
 p, li {
     line-height: 32px
 }
+
+

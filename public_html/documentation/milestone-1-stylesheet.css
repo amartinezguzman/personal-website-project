@@ -10,6 +10,16 @@ h1, h2 {
     margin: 1rem;
 }
 
+.design-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin: 4rem;
+    border: black solid .25rem;
+    padding: 3rem;
+
+}
+
 .purpose-wrapper {
     display: flex;
     flex-direction: column;

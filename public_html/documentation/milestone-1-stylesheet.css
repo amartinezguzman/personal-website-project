@@ -39,6 +39,6 @@ h1, h2 {
     padding: 3rem;
 }
 
-p {
+p, li {
     line-height: 32px
 }

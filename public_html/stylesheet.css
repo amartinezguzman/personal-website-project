@@ -1,0 +1,24 @@
+.header-wrapper h1 {
+    text-align: center;
+
+}
+
+
+.contact-form-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em;
+}
+
+h3 {
+    text-align: center;
+    padding: 2rem;
+}
+
+h5 {
+    text-align: center;
+}
+
+section p {
+    background-color: red;
+}

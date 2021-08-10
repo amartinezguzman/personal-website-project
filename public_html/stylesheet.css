@@ -1,33 +1,42 @@
-h1 {
-    font-size: 4em;
+img[alt="Main Image"] {
+    height: 23rem;
 }
 
-h1, h3, h5 {
+h1, h2, h3 {
     text-align: center;
     font-family: 'La Belle Aurore', cursive;
+    margin: 2rem;
 }
 
-#about-me {
-    border: red solid;
+#about-me h2 {
+    text-align: left;
+    margin-left: 0rem;
 }
 
-
-
-h2 {
-    font-family: 'La Belle Aurore', cursive;
+#skills-wrapper {
+    margin-top: 4rem;
 }
 
-img[alt="Main Image"] {
-height: 23rem;
+#gallery-wrapper {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+#gallery-wrapper h2 {
+    margin: 2rem;
 }
 
 
 .contact-form-wrapper {
-display: flex;
-flex-direction: column;
-text-align: left;
-padding: 1.5em;
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
                        }
+
+label {
+    display: block;
+    margin-top: 2rem;
+}
 
 section p {
     text-align: justify;

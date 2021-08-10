@@ -1,24 +1,34 @@
-.header-wrapper h1 {
-    text-align: center;
+h1 {
+    font-size: 4em;
+}
 
+h1, h3, h5 {
+    text-align: center;
+    font-family: 'La Belle Aurore', cursive;
+}
+
+#about-me {
+    border: red solid;
+}
+
+
+
+h2 {
+    font-family: 'La Belle Aurore', cursive;
+}
+
+img[alt="Main Image"] {
+height: 23rem;
 }
 
 
 .contact-form-wrapper {
-    display: flex;
-    flex-direction: column;
-    padding: 1.5em;
-}
-
-h3 {
-    text-align: center;
-    padding: 2rem;
-}
-
-h5 {
-    text-align: center;
-}
+display: flex;
+flex-direction: column;
+text-align: left;
+padding: 1.5em;
+                       }
 
 section p {
-    background-color: red;
+    text-align: justify;
 }

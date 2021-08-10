@@ -1,3 +1,9 @@
+#navbar-wrapper {
+    background-color: black;
+    height: 5rem;
+}
+
+
 img[alt="Main Image"] {
     height: 23rem;
 }
@@ -6,16 +12,30 @@ h1, h2, h3 {
     text-align: center;
     font-family: 'La Belle Aurore', cursive;
     margin: 2rem;
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
 }
 
 #about-me h2 {
     text-align: left;
-    margin-left: 0rem;
+    margin-left: 0;
 }
 
 #skills-wrapper {
     margin-top: 4rem;
+    background-color: black;
+    padding: 4rem;
+    color: white;
 }
+
+#skills-wrapper img{
+    width: 10em;
+    height: 8em;
+}
+
 
 #gallery-wrapper {
     margin-top: 4rem;
@@ -26,6 +46,12 @@ h1, h2, h3 {
     margin: 2rem;
 }
 
+/*#contact-form {
+    margin-top: 4rem;
+    background-color: black;
+    padding: 4rem;
+    color: white;
+}*/
 
 .contact-form-wrapper {
     display: flex;
@@ -40,4 +66,12 @@ label {
 
 section p {
     text-align: justify;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 4rem;
+    text-align: center;
+    padding: 1rem;
 }

@@ -26,7 +26,7 @@ h3 {
 
 #skills-wrapper {
     margin-top: 4rem;
-    background-color: black;
+    background-color: dimgray;
     padding: 4rem;
     color: white;
 }
@@ -53,11 +53,18 @@ h3 {
     color: white;
 }*/
 
+#contact-form{
+    background-color:lightsteelblue;
+}
+
+#form-spacing{
+    padding: 4rem;
+}
+
 .contact-form-wrapper {
     display: flex;
     flex-direction: column;
-    padding-left: 2rem;
-                       }
+}
 
 label {
     display: block;

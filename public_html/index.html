@@ -23,34 +23,36 @@
 <!---Name --->
 <header class="header-wrapper">
     <div class="mx-auto mx-3">
-        <h1>Adriana Martinez Guzman</h1>
+        <h1 id="header-name">Adriana Martinez Guzman</h1>
     </div>
 </header>
 
-<!---Navbar --->
+<!---Navbar -->
+
 
 <section>
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container-fluid" id="navbar-wrapper">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" id="navbar-name">Adriana Martinez Guzman</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav mx-auto">
-                    <a class="nav-link px-5" href="#">About</a>
-                    <a class="nav-link px-5" href="#">Skills</a>
-                    <a class="nav-link px-5" href="#">Gallery</a>
-                    <a class="nav-link px-5" href="#">Contact</a>
+                    <a class="nav-link active px-5" href="#">About</a>
+                    <a class="nav-link active px-5" href="#">Skills</a>
+                    <a class="nav-link active px-5" href="#">Gallery</a>
+                    <a class="nav-link active px-5" href="#">Contact</a>
                 </div>
             </div>
         </div>
     </nav>
 </section>
 
+
 <!---Website Main Picture --->
 <section>
-    <img class="container img-fluid mx-auto d-block mt-3 mb-5" src="https://picsum.photos/1000/500" alt="Main Image">
+    <img class="container img-fluid mx-auto d-block my-5 mx-auto" src="https://picsum.photos/1000/500" alt="Placeholder Main Image">
 </section>
 
 
@@ -58,12 +60,12 @@
 <div class="container-fluid" id="about-me">
     <div class="container my-5">
         <div class="card mb-3 border-white" style="max-width: 100em">
-            <div class="row g-0">
-                <div class="col-md-4">
-                    <img src="https://picsum.photos/450/475" class="img-fluid rounded-start" alt="...">
+            <div class="row g-4">
+                <div class="col-md-5">
+                    <img src="https://picsum.photos/525/600" class="img-fluid rounded-start" alt="About Me" id="about-me-image">
                 </div>
-                <div class="col-md-8">
-                    <div class="card-body p-5">
+                <div class="col-md-7">
+                    <div class="card-body">
                         <h2>About Me</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore
@@ -75,6 +77,7 @@
                             in
                             culpa qui officia deserunt mollit anim id est laborum.</p>
                         <p>
+                            <br>
                             <a class="btn btn-success" href="https://www.google.com">Download My Resume</a>
                     </div>
                 </div>
@@ -90,37 +93,34 @@
 
     <section class="container">
         <h2>Let's Collaborate!</h2>
-        <div class="row g-5">
-            <div class="col-8 col-md-4 d-block mx-auto">
-                <img class="mb-4 img-fluid mx-auto d-block" src="images/web-icon.png" alt="Place Holder Image">
+        <div class="row g-3">
+            <div class="col-12 col-md-4 d-block mx-auto">
+                <img class="mb-3 img-fluid mx-auto d-block" src="images/web-icon.png" alt="Place Holder Image">
                 <div>
                     <h3>Web Development</h3>
-                    <p class="p-2 text-center">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                    <p class="py-2 px-3 text-justify">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
                         praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
-                        occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id
-                        est laborum et dolorum fuga..</p>
+                        occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga..</p>
                 </div>
             </div>
 
-            <div class="col-8 col-md-4 d-block mx-auto">
-                <img class="mb-4 img-fluid mx-auto d-block" src="images/web-icon.png" alt="Place Holder Image">
+            <div class="col-12 col-md-4 d-block mx-auto">
+                <img class="mb-3 img-fluid mx-auto d-block" src="images/web-icon.png" alt="Place Holder Image">
                 <div>
                     <h3>Education & Coaching</h3>
-                    <p class="p-2 text-center">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                    <p class="py-2 px-3 text-justify">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
                         praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
-                        occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id
-                        est laborum et dolorum fuga..</p>
+                        occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga..</p>
                 </div>
             </div>
 
-            <div class="col-8 col-md-4 d-block mx-auto">
-                <img class="mb-4 img-fluid mx-auto d-block" src="images/web-icon.png" alt="Place Holder Image">
+            <div class="col-12 col-md-4 d-block mx-auto">
+                <img class="mb-3 img-fluid mx-auto d-block" src="images/web-icon.png" alt="Place Holder Image">
                 <div>
-                    <h3>Community</h3>
-                    <p class="p-2 text-center">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                    <h3>Social Justice</h3>
+                    <p class="py-2 px-3 text-justify">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
                         praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
-                        occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id
-                        est laborum et dolorum fuga..</p>
+                        occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga..</p>
                 </div>
             </div>
 
@@ -159,26 +159,26 @@
 
     <section>
         <div class="container" id="form-spacing">
-            <h2>Contact Me</h2>
+            <h2>Get In Touch</h2>
             <div class="contact-form-wrapper">
                 <form>
                     <div>
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name" placeholder="">
+                        <label for="name"></label>
+                        <input type="text" id="name" name="name" placeholder="Name">
                     </div>
                     <div>
-                        <label for="email">Email</label>
-                        <input type="text" id="email" name="email" placeholder="">
+                        <label for="email"></label>
+                        <input type="text" id="email" name="email" placeholder="Email">
                     </div>
                     <div>
-                        <label for="subject">Subject</label>
-                        <input type="text" id="subject" name="subject" placeholder="">
+                        <label for="subject"></label>
+                        <input type="text" id="subject" name="subject" placeholder="Subject">
                     </div>
                     <div>
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" placeholder="" style="height:200px"></textarea>
+                        <label for="message"></label>
+                        <textarea id="message" name="message" placeholder="Message" style="height:200px"></textarea>
                     </div>
-                    <input type="submit" value="Send">
+                    <input type="submit" value="Send" id="send-button">
                 </form>
             </div>
         </div>
@@ -190,12 +190,10 @@
 <footer class="container-fluid">
     <a href="https://github.com/amartinezguzman">
         <img alt="GitHub" src="images/github-logo-white.svg"
-             width=100" height="40"/>
-    </a>
+             width=100" height="40"/></a>
     <a href="https://www.linkedin.com/in/adrianamartinezguzman/">
         <img alt="LinkedIn" src="images/linked-in-logo-white.svg"
-             width=100" height="40"/>
-    </a>
+             width=100" height="40"/></a>
 </footer>
 
 <body>

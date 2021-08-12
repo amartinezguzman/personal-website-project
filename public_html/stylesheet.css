@@ -1,12 +1,11 @@
-#navbar-wrapper {
-    background-color: black;
-    height: 5rem;
-}
-
-
 img[alt="Main Image"] {
     height: 23rem;
 }
+
+.card-body p {
+    text-align: justify;
+}
+
 
 h1, h2, h3 {
     text-align: center;
@@ -17,17 +16,16 @@ h1, h2, h3 {
 
 h3 {
     font-size: 2rem;
+    margin: 1rem;
 }
-
-#about-me h2 {
-    text-align: left;
-    margin-left: 0;
+.container {
+    max-width: 1400px;
 }
 
 #skills-wrapper {
     margin-top: 4rem;
-    background-color: dimgray;
-    padding: 4rem;
+    background-color: dimgrey;
+    padding: 1rem;
     color: white;
 }
 
@@ -54,11 +52,11 @@ h3 {
 }*/
 
 #contact-form{
-    background-color:lightsteelblue;
+ /*   background-color:lightsteelblue;*/
 }
 
 #form-spacing{
-    padding: 4rem;
+    padding: 1rem;
 }
 
 .contact-form-wrapper {
@@ -81,4 +79,55 @@ footer {
     height: 4rem;
     text-align: center;
     padding: 1rem;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 1rem;
+
+}
+
+#send-button {
+    background-color: transparent;
+    border: none;
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 2rem;
+}
+
+footer {
+    margin-top: 2rem;
+}
+
+/*Mobile*/
+@media screen and (max-width:768px){
+    #header-name {
+        display: none;
+    }
+    #navbar-name {
+        color: white;
+        font-family: 'La Belle Aurore', cursive;
+        font-size: 1.25rem;
+        margin: 1rem;
+    }
+    #about-me-image {
+        display: none;
+    }
+    h1, h2 {
+        font-size: 2.75rem;
+    }
+    h3 {
+        font-size: 2rem;
+    }
+}
+
+/*Desktop*/
+@media screen and (min-width:768px){
+    #navbar-name {
+       display: none;
+    }
+    #about-me h2 {
+        text-align: left;
+        margin: 0;
+    }
+
 }

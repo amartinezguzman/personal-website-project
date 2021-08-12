@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="stylesheet.css">
 
 </head>
-
+<body>
 <!---Name --->
 <header class="header-wrapper">
     <div class="mx-auto mx-3">
@@ -161,7 +161,7 @@
         <div class="container" id="form-spacing">
             <h2>Get In Touch</h2>
             <div class="contact-form-wrapper">
-                <form>
+                <form id="contact">
                     <div>
                         <label for="name"></label>
                         <input type="text" id="name" name="name" placeholder="Name">
@@ -178,12 +178,17 @@
                         <label for="message"></label>
                         <textarea id="message" name="message" placeholder="Message" style="height:200px"></textarea>
                     </div>
+
+                    <!-- reCAPTCHA code -->
+                    <div class="g-recaptcha" data-sitekey="6Le8QPgbAAAAAB6mPdlf4lXjYYQlPVWgIZ46JU-X"></div>
+                    <br/>
                     <input type="submit" value="Send" id="send-button">
                 </form>
+
+                <div id="output-area"></div>
             </div>
         </div>
     </section>
-
 </div>
 
     <!---Footer --->
@@ -196,9 +201,33 @@
              width=100" height="40"/></a>
 </footer>
 
-<body>
+<!--JQuery Minified Code (code.jquery.com) -->
+<script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous"></script>
+
+<!--Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
             crossorigin="anonymous"></script>
-    </body>
+
+<!-- Query Form, Validate, & Additional Methods -->
+<!--link (https://cdnjs.com/libraries/jquery.form) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.3.0/jquery.form.min.js" integrity="sha512-YUkaLm+KJ5lQXDBdqBqk7EVhJAdxRnVdT2vtCzwPHSweCzyMgYV/tgGF4/dCyqtCC2eCphz0lRQgatGVdfR0ww==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!--link https://jqueryvalidation.org/ -->
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/additional-methods.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+<!-- Google reCAPTCHA -->
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+<!--custom jquery script -->
+<script src="./js/script.js"></script>
+
+
+</body>
 </html>

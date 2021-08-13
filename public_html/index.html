@@ -161,7 +161,7 @@
         <div class="container" id="form-spacing">
             <h2>Get In Touch</h2>
             <div class="contact-form-wrapper">
-                <form id="contact">
+                <form action="http://localhost:4200/apis/" method="post" id="contact">
                     <div>
                         <label for="name"></label>
                         <input type="text" id="name" name="name" placeholder="Name">
@@ -182,7 +182,7 @@
                     <!-- reCAPTCHA code -->
                     <div class="g-recaptcha" data-sitekey="6Le8QPgbAAAAAB6mPdlf4lXjYYQlPVWgIZ46JU-X"></div>
                     <br/>
-                    <input type="submit" value="Send" id="send-button">
+                   <button class="btn btn-success" type="submit" id="send-button">Send</button>
                 </form>
 
                 <div id="output-area"></div>
@@ -213,13 +213,12 @@
             crossorigin="anonymous"></script>
 
 <!-- Query Form, Validate, & Additional Methods -->
-<!--link (https://cdnjs.com/libraries/jquery.form) -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.3.0/jquery.form.min.js" integrity="sha512-YUkaLm+KJ5lQXDBdqBqk7EVhJAdxRnVdT2vtCzwPHSweCzyMgYV/tgGF4/dCyqtCC2eCphz0lRQgatGVdfR0ww==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-<!--link https://jqueryvalidation.org/ -->
-<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/additional-methods.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script crossorigin="anonymous" integrity="sha256-2Pjr1OlpZMY6qesJM68t2v39t+lMLvxwpa8QlRjJroA="
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+<script crossorigin="anonymous" integrity="sha256-F6h55Qw6sweK+t7SiOJX+2bpSAa3b/fnlrVCJvmEj1A="
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+<script crossorigin="anonymous" integrity="sha256-0Yg/eibVdKyxkuVo1Qwh0DspoUCHvSbm/oOoYVz32BQ="
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
 
 
 <!-- Google reCAPTCHA -->

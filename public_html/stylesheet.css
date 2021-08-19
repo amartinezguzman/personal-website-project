@@ -24,7 +24,7 @@ h3 {
 
 #skills-wrapper {
     margin-top: 4rem;
-    background-color: dimgrey;
+    background-color: black;
     padding: 1rem;
     color: white;
 }
@@ -43,6 +43,15 @@ h3 {
 #gallery-wrapper h2 {
     margin: 2rem;
 }
+
+/*Image Text Overlay*/
+
+
+
+
+/* End of Image Text Overlay*/
+
+
 
 /*#contact-form {
     margin-top: 4rem;

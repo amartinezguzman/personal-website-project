@@ -39,10 +39,10 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav mx-auto">
-                    <a class="nav-link active px-5" href="#">About</a>
-                    <a class="nav-link active px-5" href="#">Skills</a>
-                    <a class="nav-link active px-5" href="#">Gallery</a>
-                    <a class="nav-link active px-5" href="#">Contact</a>
+                    <a class="nav-link active px-5" href="#about-me">About</a>
+                    <a class="nav-link active px-5" href="#skills-wrapper">Skills</a>
+                    <a class="nav-link active px-5" href="#gallery-wrapper">Gallery</a>
+                    <a class="nav-link active px-5" href="#contact-form">Contact</a>
                 </div>
             </div>
         </div>
@@ -52,7 +52,7 @@
 
 <!---Website Main Picture --->
 <section>
-    <img class="container img-fluid mx-auto d-block my-5 mx-auto" src="https://picsum.photos/1000/500" alt="Placeholder Main Image">
+    <img class="container img-fluid mx-auto d-block my-4 mx-auto" src="https://picsum.photos/1000/450" alt="Placeholder Main Image">
 </section>
 
 
@@ -61,10 +61,10 @@
     <div class="container my-5">
         <div class="card mb-3 border-white" style="max-width: 100em">
             <div class="row g-4">
-                <div class="col-md-5">
-                    <img src="https://picsum.photos/525/600" class="img-fluid rounded-start" alt="About Me" id="about-me-image">
+                <div class="col-md-4">
+                    <img src="https://picsum.photos/500/500" class="img-fluid rounded-start" alt="About Me" id="about-me-image">
                 </div>
-                <div class="col-md-7">
+                <div class="col-md-8">
                     <div class="card-body">
                         <h2>About Me</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -89,6 +89,8 @@
 
 
 <!---Skills-->
+
+
 <div class="container-fluid" id="skills-wrapper">
 
     <section class="container">
@@ -136,9 +138,15 @@
             <h2>Some of My Favorite Moments</h2>
             <div class="row px-3 g-2">
                 <div class="col-6 col-md-3 d-block">
-                    <img class="img-fluid mx-auto d-block" src="https://picsum.photos/400/599" alt="Place Holder Image">
-                </div>
 
+                    <div class="gallery-image">
+                        <img class="image__img img-fluid mx-auto d-block" src="https://picsum.photos/400/599" alt="Place Holder Image">
+.
+                    </div>
+
+
+
+                </div>
                 <div class="col-6 col-md-3 d-block">
                     <img class="img-fluid mx-auto d-block" src="https://picsum.photos/400/598" alt="Place Holder Image">
                 </div>
@@ -161,7 +169,7 @@
         <div class="container" id="form-spacing">
             <h2>Get In Touch</h2>
             <div class="contact-form-wrapper">
-                <form action="http://localhost:4200/apis/" method="post" id="contact">
+                <form action="./apis/" method="post" id="contact">
                     <div>
                         <label for="name"></label>
                         <input type="text" id="name" name="name" placeholder="Name">

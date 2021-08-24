@@ -105,13 +105,75 @@ h6 {
 
 /* End of Image Text Overlay*/
 
-/* Flip Cards Styling*/
+/* Flip Cards Styling
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
 
+.skills-container {
+    position: relative;
+    width: 1400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
 
+.skills-card {
+    position: relative;
+    max-width: 400px;
+    height: 500px;
+    background-color: white;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in-out;
+}
+.skills-container .skills-card:hover{
+    height: 350px;
+}
 
+.imgBx {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    top: -60px;
+    left: 35px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
 
+.skills-container .skills-card .imgBx img {
+    max-width: 100%;
+    border-radius: 1px;
+}
 
-/* End of Flip Cards Styling*/
+.skills-container .skills-card .content {
+    position: relative;
+    margin: -25px;
+    padding: 10px 15px;
+    text-align: center;
+    color: black;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.skills-container .skills-card .content {
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: 0.3s;
+
+}
+
+ End of Flip Cards Styling*/
 
 
 /*-------Contact Form-------*/

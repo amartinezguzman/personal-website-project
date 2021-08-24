@@ -19,6 +19,13 @@ h5 {
     font-family: 'La Belle Aurore', cursive;
     font-size: 1.5rem;
     text-align: center;
+    color: darkgreen;
+}
+
+h6 {
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 1.25rem;
+    color: darkgreen;
 }
 
 /*About Me*/

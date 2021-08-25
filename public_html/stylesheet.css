@@ -156,6 +156,16 @@ footer {
     margin-top: 2rem;
 }
 
+#git-hub-icon {
+    width: 75px;
+    height: 40px;
+}
+
+#linkedin-icon{
+    width:75px;
+    height:40px;
+}
+
 /*Mobile*/
 @media screen and (max-width:768px) {
     #header-name {

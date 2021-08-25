@@ -35,6 +35,7 @@ h6 {
     text-align: justify;
 }
 
+
 /*Skills*/
 #skills-wrapper {
     margin-top: 4rem;
@@ -116,18 +117,8 @@ span {
 /* End of Image Text Overlay*/
 
 
-/*-------Contact Form-------*/
+/*Contact Form*/
 
-/*#contact-form {
-    margin-top: 4rem;
-    background-color: black;
-    padding: 4rem;
-    color: white;
-}*/
-
-#contact-form{
- /*   background-color:lightsteelblue;*/
-}
 
 #form-spacing{
     padding: 1rem;
@@ -161,13 +152,6 @@ input, textarea {
 
 }
 
-/*#send-button {
-    background-color: transparent;
-    border: black;
-    font-family: 'La Belle Aurore', cursive;
-    font-size: 2rem;
-}*/
-
 footer {
     margin-top: 2rem;
 }
@@ -192,6 +176,10 @@ footer {
     #about-me-image  {
         display: none;
     }
+    #about-me h2 {
+        text-align: center;
+        margin: 1em;
+    }
 
     h1, h2 {
         font-size: 2.75rem;
@@ -206,6 +194,9 @@ footer {
     .image-title {
         font-size: 1em;
         font-weight: bold;
+    }
+    #pronouns{
+        text-align: center;
     }
 
 }
@@ -235,4 +226,5 @@ footer {
     .card-body p {
         font-size: 1.25em;
     }
+
 }

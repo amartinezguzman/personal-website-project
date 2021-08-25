@@ -39,11 +39,13 @@ h6 {
 #skills-wrapper {
     margin-top: 4rem;
     background-color:#F2F2F2;
-    /*     #E1DFD1;
-#DDE3E3*/
-
     padding: 1rem;
     color: black;
+}
+
+ul {
+    line-height: 1.5em;
+    list-style-type: square;
 }
 
 #skills-wrapper img{
